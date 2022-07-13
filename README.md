@@ -7,7 +7,7 @@ This plugin is inspired by the operation GFiles in [fzf.vim](https://github.com/
 
 Similarly, this plugin would do the same on a perforce repository using the p4 files and p4 where commands. Since we are using perforce commands and the execution happens through perforce the file query would happen fast compared to a normal linux find command
 
-# Usage
+## Usage
 
 To start querying files on the perforce repository, Enter
 
