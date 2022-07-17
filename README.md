@@ -9,9 +9,22 @@ Similarly, this plugin would do the same on a perforce repository using the p4 f
 
 ## Usage
 
+### For Vim/Neovim using Fzf
 To start querying files on the perforce repository, Enter
 
     :VF
 
 
 ![p4_files_query_2](https://user-images.githubusercontent.com/10277051/178671397-ded56164-a60f-4feb-8630-c0eb25e37755.gif)
+
+### For Neovim using Telescope
+
+Add the following config in setup to load the extension in [Telescope](https://github.com/nvim-telescope/telescope.nvim)
+
+    require'telescope'.load_extension('vim_p4_files')
+
+To query files invoke through Telescope
+
+    :Telescope vim_p4_files
+    
+![vim_p4_files_telescope](https://user-images.githubusercontent.com/10277051/179400653-87025290-6ba2-4a67-b9ef-09d90d7de41a.gif)
